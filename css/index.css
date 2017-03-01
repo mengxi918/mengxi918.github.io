@@ -13,6 +13,7 @@ body {
     height:60px;
     background-color: #fff;
     box-shadow: 0px 10px 20px rgba(88, 88, 88, 0.3);
+    z-index: 1000;
 }
 
 #mx_nav_line {
@@ -93,6 +94,13 @@ body {
 }
 
 .page {
+    max-width: 720px;
+    min-width: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.pagee {
     height: 100%;
     background-color: #fff;
 }
@@ -130,4 +138,39 @@ body {
     color: #00AB6B;
     padding-top: 3px;
     font-size: 14px;
+}
+
+
+
+#firstProduct {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: none;
+}
+
+.mx_slider_bar {
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.mx_slider_bar #lh_right {
+    float: right;
+}
+
+.mx_slider_arrow {
+    width: 30px;
+}
+.mx_slider_arrow.left {
+    margin-left: 10px;
+}
+.mx_slider_arrow.right {
+    margin-right: 10px;
+}
+
+
+#page1 {
+    padding: 50px 0px 50px 0px;
 }
