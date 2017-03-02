@@ -23,7 +23,7 @@ h1, div, p {
 #mx_nav_line {
     height: 1px;
     background-color: #f0f0f0;
-    max-width: 1080px;
+    max-width: 1200px;
     min-width: 750px;
     width: 80%;
     margin: auto;
@@ -67,7 +67,7 @@ h1, div, p {
 }
 
 .mx_nav_inner {
-    max-width: 1080px;
+    max-width: 1200px;
     min-width: 750px;
     width: 80%;
     margin: auto;
@@ -82,7 +82,7 @@ h1, div, p {
     color: #888;
     padding-top: 8px;
     font-size: 15px;
-    width: 80px;
+    width: 90px;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ h1, div, p {
 }
 
 .mx_header_content {
-    max-width: 1080px;
+    max-width: 1200px;
     min-width: 750px;
     width: 80%;
     margin: auto;
@@ -155,7 +155,7 @@ h1, div, p {
 
 
 .page {
-    max-width: 1080px;
+    max-width: 1200px;
     min-width: 750px;
     width: 80%;
     margin: auto;
@@ -252,4 +252,50 @@ h1, div, p {
 .mx_more_less:active, .mx_more_less:hover, .mx_more_less:link, .mx_more_less:visited {
     color: #00AB6B;
     text-decoration: none;
+}
+
+
+.paddint_bottom {
+    padding-bottom: 120px;
+}
+.paddint_bottom2 {
+    padding-bottom: 100px;
+}
+
+
+.mx_sub_pros {
+    background-color: #f0f0f0;
+    padding-top: 90px;
+}
+.mx_sub_item {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
+.mx_product_slider_s {
+    width: 75%;
+    margin: 20px auto 0px auto;
+}
+
+.mx_ps {
+    width: 70%;
+    margin: 15px auto 0px auto;
+    position: relative;
+    text-align: left;
+}
+.mx_product_detail_s {
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
 }
