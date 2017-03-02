@@ -168,12 +168,22 @@ h1, div, p {
 }
 
 #page1 {
-    padding: 60px 0px 50px 0px;
+    padding: 90px 0px 50px 0px;
 }
 
 .mx_product_slider {
     opacity: 0;
     width: 55%;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -o-transform: translateY(100px);
 }
 .mx_product_descs {
     width: 40%;
@@ -181,7 +191,17 @@ h1, div, p {
     left: 60%;
     top: 0px;
     height: 100%;
-    /*overflow: hidden;*/
+    opacity: 0;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -o-transform: translateY(100px);
 }
 
 .mx_product_hint {
@@ -206,23 +226,34 @@ h1, div, p {
     color: #888;
     line-height: 25px;
 
-    -ms-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.mx_product_desc {
+    margin-top: 25px;
 }
 .mx_product_detail {
     display: none;
     opacity: 0.0;
 }
-.mx_product_more_less {
+.mx_more_less {
     color: #00AB6B;
     font-size: 12px;
     text-align: right;
 }
-
-.mx_product_more_less:active, .mx_product_more_less:hover, .mx_product_more_less:link, .mx_product_more_less:visited {
+.mx_more_less:active, .mx_more_less:hover, .mx_more_less:link, .mx_more_less:visited {
     color: #00AB6B;
     text-decoration: none;
+}
+
+
+
+.mx_p2_bg {
+    background-color: #f0f0f0;
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
