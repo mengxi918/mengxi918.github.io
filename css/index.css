@@ -127,9 +127,20 @@ h1, div, p {
     border: 1px solid #00AB6B;
     margin: auto;
     margin-top: 40px;
-    color: #00AB6B;
     padding-top: 3px;
     font-size: 14px;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.mx_header_down a, .mx_header_down a:active, .mx_header_down a:link, .mx_header_down a:visited {
+    color: #00AB6B;
+    text-decoration: none;
+}
+.mx_header_down a:hover {
+    color: #fff;
 }
 
 
@@ -160,7 +171,7 @@ h1, div, p {
     width: 80%;
     margin: auto;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .mx_margin {
@@ -262,9 +273,8 @@ h1, div, p {
     padding-bottom: 100px;
 }
 
-
 .mx_sub_pros {
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
     padding-top: 90px;
 }
 .mx_sub_item {
@@ -284,12 +294,12 @@ h1, div, p {
     -o-transform: translateY(100px);
 }
 .mx_product_slider_s {
-    width: 75%;
+    width: 80%;
     margin: 20px auto 0px auto;
 }
 
 .mx_ps {
-    width: 70%;
+    width: 75%;
     margin: 15px auto 0px auto;
     position: relative;
     text-align: left;
