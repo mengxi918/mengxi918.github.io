@@ -160,6 +160,11 @@ h1, div, p {
     width: 80%;
     margin: auto;
     position: relative;
+    padding-bottom: 20px;
+}
+
+.mx_margin {
+    height: 90px;
 }
 
 .pagee {
@@ -247,13 +252,4 @@ h1, div, p {
 .mx_more_less:active, .mx_more_less:hover, .mx_more_less:link, .mx_more_less:visited {
     color: #00AB6B;
     text-decoration: none;
-}
-
-
-
-.mx_p2_bg {
-    background-color: #f0f0f0;
-    margin-top: 40px;
-    padding-top: 60px;
-    padding-bottom: 20px;
 }
