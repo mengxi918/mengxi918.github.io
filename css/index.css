@@ -16,7 +16,7 @@ h1, div, p {
     width:100%;
     height:60px;
     background-color: rgba(255, 255, 255, 0.0);
-    box-shadow: 0px 5px 25px rgba(88, 88, 88, 0.1);
+    box-shadow: 0px 5px 20px rgba(179, 179, 179, 0.1);
     z-index: 1000;
 }
 
@@ -27,6 +27,12 @@ h1, div, p {
     min-width: 750px;
     width: 80%;
     margin: auto;
+}
+
+.mx_nav_bottom {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(179, 179, 179, 0.15)
 }
 
 #mx_nav_bg {
@@ -121,27 +127,27 @@ h1, div, p {
 }
 
 .mx_header_down {
-    width: 160px;
+    width: 180px;
     height: 30px;
     border-radius: 15px;
-    border: 1px solid #00AB6B;
+    border: 1px solid #26CC63;
     margin: auto;
     margin-top: 40px;
-    padding-top: 3px;
-    font-size: 14px;
-    -ms-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    padding-top: 5px;
+    font-size: 12px;
+    -ms-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
-.mx_header_down a, .mx_header_down a:active, .mx_header_down a:link, .mx_header_down a:visited {
-    color: #00AB6B;
+.mx_header_down a, .mx_header_down a:active, .mx_header_down a:link, .mx_header_down a:visited, .mx_header_down a:hover {
+    color: #26CC63;
     text-decoration: none;
 }
-.mx_header_down a:hover {
+/*.mx_header_down a:hover {
     color: #fff;
-}
+}*/
 
 
 
@@ -178,13 +184,8 @@ h1, div, p {
     height: 90px;
 }
 
-.pagee {
-    height: 100%;
-    background-color: #fff;
-}
-
 #page1 {
-    padding: 90px 0px 50px 0px;
+    padding: 90px 0px 0px 0px;
 }
 
 .mx_product_slider {
@@ -221,8 +222,8 @@ h1, div, p {
 }
 
 .mx_product_hint {
-    font-size: 14px;
-    color: #00AB6B;
+    font-size: 13px;
+    color: #26CC63;
     margin: 0px;
 }
 .mx_product_name {
@@ -256,12 +257,12 @@ h1, div, p {
     opacity: 0.0;
 }
 .mx_more_less {
-    color: #00AB6B;
+    color: #26CC63;
     font-size: 12px;
     text-align: right;
 }
 .mx_more_less:active, .mx_more_less:hover, .mx_more_less:link, .mx_more_less:visited {
-    color: #00AB6B;
+    color: #26CC63;
     text-decoration: none;
 }
 
@@ -328,6 +329,7 @@ h1, div, p {
     min-width: 750px;
     width: 80%;
     margin: auto;
+    padding-top: 50px;
 }
 #mx_edu {
     opacity: 0;
@@ -344,9 +346,9 @@ h1, div, p {
 }
 .mx_center_rail {
     width: 6px;
-    height: 600px;
+    height: 500px;
     margin: 0px auto 80px auto;
-    background-color: rgba(0, 171, 107, 0.4);
+    background-color: rgba(38, 204, 99, 0.4);
     border-radius: 3px;
 }
 
@@ -357,59 +359,67 @@ h1, div, p {
 }
 
 .mx_rail_item {
-    margin: auto;
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
+    margin: 0px auto 0px auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.0);
-    border: 1px solid rgba(0, 171, 107, 0.6);
+    border: 1px solid rgba(38, 204, 99, 0.6);
 }
 
 .mx_rail_margin {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .mx_rail_item_outer {
-    margin: 4px auto 0px auto;
-    width: 14px;
-    height: 14px;
-    border-radius: 7px;
+    margin: 3px auto 0px auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.0);
-    border: 1px solid rgba(0, 171, 107, 0.7);
+    border: 1px solid rgba(38, 204, 99, 0.8);
 }
 
 .mx_rail_item_inner {
     margin: 1px auto 0px auto;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: rgba(0, 171, 107, 0.9);
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #26CC63;
 }
 
 .mx_edu_container {
     position: absolute;
     top: 40px;
-    width: 100%;
+    width: 50%;
+    height: 200px;
+}
+.mx_edu_container_left {
+    left: 0px;
+}
+.mx_edu_container_right {
+    right: 0px;
 }
 
 .mx_edu_item {
     position: absolute;
-    width: 40%;
+    width: 80%;
+    max-width: 380px;
     background-color: #f9f9f9;
-    border-top: 3px solid rgba(0, 171, 107, 0.6);
+    border-top: 3px solid #26CC63;
     border-radius: 5px;
 }
 #mx_edu_item_1 {
     top: 0px;
-    left: 30px;
+    right: 50px;
 }
 #mx_edu_item_2 {
-    top: 224px;
-    right: 30;
+    top: 170px;
+    left: 50px;
 }
 #mx_edu_item_3 {
-    top: 448px;
-    left: 30px;
+    top: 340px;
+    right: 50px;
 }
 
 .mx_edu_arrow_right {
@@ -419,7 +429,7 @@ h1, div, p {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-left: 10px solid #f2f2f2;
+    border-left: 10px solid #f9f9f9;
     border-bottom: 10px solid transparent;
 }
 .mx_edu_arrow_left {
@@ -429,14 +439,14 @@ h1, div, p {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-right: 10px solid #f2f2f2;
+    border-right: 10px solid #f9f9f9;
     border-bottom: 10px solid transparent;
 }
 
 .mx_edu_time {
-    background-color: rgba(0, 171, 107, 0.6);
+    background-color: #26CC63;
     font-size: 12px;
-    width: 120px;
+    width: 130px;
     height: 22px;
     margin: 10px 20px 0px 20px;
     padding-top: 3px;
@@ -451,19 +461,215 @@ h1, div, p {
     left: 10px;
     width: 0;
     height: 0;
-    border-top: 10px solid rgba(0, 171, 107, 0.6);
+    border-top: 10px solid #26CC63;
     border-left: 8px solid transparent;
 }
 
 .mx_edu_desc {
-    font-size: 14px;
-    color: #575757;
+    font-size: 13px;
+    color: #b3b3b3;
     padding: 0px 20px 0px 20px;
 }
 
-.mx_edu_sc {
-    font-size: 13px;
-    color: #b3b3b3;
+.mx_edu_course {
+    font-size: 14px;
+    color: #575757;
     margin-top: 20px;
     padding: 0px 20px 0px 20px;
+}
+
+
+
+#page3 {
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+#mx_skills {
+    position: relative;
+    max-width: 1200px;
+    min-width: 750px;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    opacity: 0;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
+
+.mx_skills_container {
+    width: 50%;
+    height: 100px;
+}
+.mx_skills_container_r {
+    position: absolute;
+    right: 0px;
+    top: 150px;
+}
+
+.mx_skill {
+    width: 85%;
+    margin: 0px auto 30px auto;
+}
+.mx_skill_name {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+.mx_skill_progress_bg {
+    width: 100%;
+    height: 6px;
+    background-color: #cdcdcd;
+    border-radius: 3px;
+}
+.mx_skill_progress {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.mx_skills {
+    height: 100%;
+    position: relative;
+}
+.mx_skill_1 {
+    width: 95%;
+}
+#mx_skill_1 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_2 {
+    width: 95%;
+}
+#mx_skill_2 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_3 {
+    width: 90%;
+}
+#mx_skill_3 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_4 {
+    width: 90%;
+}
+#mx_skill_4 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_5 {
+    width: 90%;
+}
+#mx_skill_5 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_6 {
+    width: 85%;
+}
+#mx_skill_6 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_7 {
+    width: 90%;
+}
+#mx_skill_7 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_8 {
+    width: 90%;
+}
+#mx_skill_8 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_9 {
+    width: 70%;
+}
+#mx_skill_9 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_10 {
+    width: 50%;
+}
+#mx_skill_10 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_11 {
+    width: 50%;
+}
+#mx_skill_11 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
+}
+
+.mx_skill_12 {
+    width: 40%;
+}
+#mx_skill_12 {
+    background: linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -ms-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -webkit-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -moz-linear-gradient(50deg, #74f1a2, #27ce64);
+    background: -o-linear-gradient(50deg, #74f1a2, #27ce64);
 }
