@@ -318,3 +318,139 @@ h1, div, p {
     top: 0px;
     margin-top: 0px;
 }
+
+
+
+
+#page2 {
+    position: relative;
+    max-width: 1200px;
+    min-width: 750px;
+    width: 80%;
+    margin: auto;
+}
+.mx_center_rail {
+    width: 6px;
+    height: 600px;
+    margin: 0px auto 80px auto;
+    background-color: rgba(0, 171, 107, 0.4);
+    border-radius: 3px;
+}
+
+.mx_rail_container {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+.mx_rail_item {
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(0, 171, 107, 0.6);
+}
+
+.mx_rail_margin {
+    margin-top: 200px;
+}
+
+.mx_rail_item_outer {
+    margin: 4px auto 0px auto;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid rgba(0, 171, 107, 0.7);
+}
+
+.mx_rail_item_inner {
+    margin: 1px auto 0px auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 171, 107, 0.9);
+}
+
+.mx_edu_container {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+.mx_edu_item {
+    position: absolute;
+    width: 38%;
+    background-color: #f6f6f6;
+    border-top: 3px solid rgba(0, 171, 107, 0.6);
+    border-radius: 5px;
+}
+#mx_edu_item_1 {
+    top: 0px;
+    left: 0px;
+}
+#mx_edu_item_2 {
+    top: 224px;
+    right: 0;
+}
+#mx_edu_item_3 {
+    top: 448px;
+    left: 0px;
+}
+
+.mx_edu_arrow_right {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #f2f2f2;
+    border-bottom: 10px solid transparent;
+}
+.mx_edu_arrow_left {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #f2f2f2;
+    border-bottom: 10px solid transparent;
+}
+
+.mx_edu_time {
+    background-color: rgba(0, 171, 107, 0.6);
+    font-size: 12px;
+    width: 120px;
+    height: 22px;
+    margin: 10px 20px 0px 20px;
+    padding-top: 3px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+.mx_edu_down_arrow {
+    position: absolute;
+    top: 99%;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgba(0, 171, 107, 0.6);
+    border-left: 8px solid transparent;
+}
+
+.mx_edu_desc {
+    font-size: 14px;
+    color: #575757;
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.mx_edu_sc {
+    font-size: 13px;
+    color: #b3b3b3;
+    padding: 0px 20px 0px 20px;
+}
