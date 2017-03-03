@@ -79,7 +79,7 @@ h1, div, p {
 .mx_nav_item {
     display: inline-block;
     margin-left: 30px;
-    color: #888;
+    /*color: #888;*/
     padding-top: 8px;
     font-size: 15px;
     width: 90px;
@@ -267,10 +267,10 @@ h1, div, p {
 
 
 .paddint_bottom {
-    padding-bottom: 120px;
+    padding-bottom: 300px;
 }
 .paddint_bottom2 {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .mx_sub_pros {
@@ -293,6 +293,10 @@ h1, div, p {
     -webkit-transform: translateY(100px);
     -o-transform: translateY(100px);
 }
+.limit {
+    width: 80%;
+    margin: 10px auto 0px auto;
+}
 .mx_product_slider_s {
     width: 80%;
     margin: 20px auto 0px auto;
@@ -305,6 +309,11 @@ h1, div, p {
     text-align: left;
 }
 .mx_product_detail_s {
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
+}
+.mx_product_desc_s {
     position: absolute;
     top: 0px;
     margin-top: 0px;
