@@ -329,6 +329,19 @@ h1, div, p {
     width: 80%;
     margin: auto;
 }
+#mx_edu {
+    opacity: 0;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
 .mx_center_rail {
     width: 6px;
     height: 600px;
@@ -381,22 +394,22 @@ h1, div, p {
 
 .mx_edu_item {
     position: absolute;
-    width: 38%;
-    background-color: #f6f6f6;
+    width: 40%;
+    background-color: #f9f9f9;
     border-top: 3px solid rgba(0, 171, 107, 0.6);
     border-radius: 5px;
 }
 #mx_edu_item_1 {
     top: 0px;
-    left: 0px;
+    left: 30px;
 }
 #mx_edu_item_2 {
     top: 224px;
-    right: 0;
+    right: 30;
 }
 #mx_edu_item_3 {
     top: 448px;
-    left: 0px;
+    left: 30px;
 }
 
 .mx_edu_arrow_right {
@@ -406,17 +419,17 @@ h1, div, p {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-left: 20px solid #f2f2f2;
+    border-left: 10px solid #f2f2f2;
     border-bottom: 10px solid transparent;
 }
 .mx_edu_arrow_left {
     position: absolute;
     top: 0px;
-    left: -20px;
+    left: -10px;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-right: 20px solid #f2f2f2;
+    border-right: 10px solid #f2f2f2;
     border-bottom: 10px solid transparent;
 }
 
@@ -445,12 +458,12 @@ h1, div, p {
 .mx_edu_desc {
     font-size: 14px;
     color: #575757;
-    margin-top: 20px;
     padding: 0px 20px 0px 20px;
 }
 
 .mx_edu_sc {
     font-size: 13px;
     color: #b3b3b3;
+    margin-top: 20px;
     padding: 0px 20px 0px 20px;
 }
