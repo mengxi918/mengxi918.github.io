@@ -85,7 +85,6 @@ h1, div, p {
 .mx_nav_item {
     display: inline-block;
     margin-left: 30px;
-    /*color: #888;*/
     padding-top: 8px;
     font-size: 15px;
     width: 90px;
@@ -101,7 +100,6 @@ h1, div, p {
     width: 100%;
     height: 380px;
     background-color: #fff;
-    overflow: hidden;
 }
 
 .mx_header_content {
@@ -672,7 +670,7 @@ h1, div, p {
 }
 
 .mx_skill_12 {
-    width: 40%;
+    width: 30%;
 }
 #mx_skill_12 {
     background: linear-gradient(50deg, #74f1a2, #27ce64);
@@ -738,4 +736,3 @@ h1, div, p {
     color: #fff;
     text-decoration: none;
 }
-
