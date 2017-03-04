@@ -5,6 +5,11 @@ body.reader-black-font, body.reader-black-font .history-mode .view-area, body.re
 body {
     background-color: #fff;
     font-size: 0px;
+    -ms-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -o-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
 }
 h1, div, p {
     font-family: Hiragino Sans GB;
@@ -84,11 +89,10 @@ h1, div, p {
 
 .mx_nav_item {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 60px;
     padding-top: 8px;
     font-size: 15px;
-    width: 90px;
-    text-align: center;
+    text-align: right;
 }
 
 .mx_nav_item_a:active, .mx_nav_item_a:hover, .mx_nav_item_a:link, .mx_nav_item_a:visited {
